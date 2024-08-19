@@ -165,12 +165,12 @@ fun Quadrant(modifier: Modifier = Modifier){
         ){
             ColoredBoxed(color = Color(0xFFEADDFF), modifier = Modifier.fillMaxWidth(fraction = 0.5f))
             {
-                HeadingText(text = "Text composable")
-                SubText(text = "Displays text and follows the recommended Material Design guidelines.")
+                HeadingText(text = stringResource(R.string.first_title))
+                SubText(text = stringResource(R.string.first_description))
             }
             ColoredBoxed(color = Color(0xFFD0BCFF)){
-                HeadingText(text = "Image composable")
-                SubText(text = "Creates a composable that lays out and draws a given Painter class object.")
+                HeadingText(text = stringResource(R.string.second_title))
+                SubText(text = stringResource(R.string.second_description))
             }
         }
         Row (
@@ -181,12 +181,12 @@ fun Quadrant(modifier: Modifier = Modifier){
         ){
             ColoredBoxed(color = Color(0xFFB69DF8), modifier = Modifier.fillMaxWidth(fraction = 0.5f))
             {
-                HeadingText(text = "Row composable")
-                SubText(text = "A layout composable that places its children in a horizontal sequence.")
+                HeadingText(text = stringResource(R.string.third_title))
+                SubText(text = stringResource(R.string.third_description))
             }
             ColoredBoxed(color = Color(0xFFF6EDFF)){
-                HeadingText(text = "Column composable")
-                SubText(text = "A layout composable that places its children in a vertical sequence.")
+                HeadingText(text = stringResource(R.string.forth_title))
+                SubText(text = stringResource(R.string.forth_description))
             }
         }
     }
